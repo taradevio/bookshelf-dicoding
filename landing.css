@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 1rem 2em;
+}
+
+#logo {
+    font-size: 25px ;
+}
+
+#section-one {
+    background-color: #fffffe;
+    margin-top: 5em;
+    margin-bottom: 6.5rem;
+    padding: 0 1em;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#title {
+    color: #272343;
+    margin: 1em 0 0.5em;
+    font-size: 40px;
+}
+
+.cta {
+    text-align: center;
+    margin: 1rem 0 0.5rem;
+}
+
+input[type=button] {
+    width: 95px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background-color: #ffd803;
+    color: #272343;
+    font-weight: bold;
+}
+
+#title, .description, .tagline, #section-five {
+    text-align: center;
+}
+
+.description {
+    color: #2d334a;
+    font-size: 17px;
+}
+
+#section-two {
+    height: 55px;
+    background-color: #e3f6f5;
+    color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 0 1rem;
+    font-size: 18px;
+}
+
+#section-three {
+    color: #272343;
+    padding: 0 1em;
+}
+
+figure {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+#book {
+    font-size: 25px;
+}
+
+
+#section-four {
+    background-color: #e3f6f5;
+    margin: 5rem 0;
+    padding: 1rem 2rem;
+}
+
+.tagline {
+    color: #272343;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.testimony {
+    color: #2d334a;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-one, .card-two, .card-three {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#section-five {
+    background-color: #fffffe;
+    margin-bottom: 6.5rem;
+    padding: 0 1em;
+}
+
+.cta {
+    margin: 1rem 0;
+}
+
+#ads {
+    font-size: 25px;
+}
+
+.text {
+    padding-right: 15px;
+}
+
+footer {
+    background-color: #e3f6f5;
+    color: #2d334a;
+    text-align: end;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    #section-one, #section-two, #section-three, #section-four, #section-five {
+        padding: 0.5em;
+    }
+
+    #container {
+        width: 95%;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    li {
+        padding: 0.5rem;
+        font-size: 16px;
+    }
+
+    #book {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .card-one, .card-two, .card-three {
+        width: 100%;
+    }
+
+    #ads {
+        font-size: 20px;
+    }
+}
